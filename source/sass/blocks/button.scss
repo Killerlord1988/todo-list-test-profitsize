@@ -1,0 +1,19 @@
+button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+
+  width: 54px;
+  height: 27px;
+
+  background-color: $color-orange;
+  color: $color-white;
+  border-radius: 7px;
+  border: none;
+}
+
+button:hover {
+  background-color: $color-orange-hover;
+}
